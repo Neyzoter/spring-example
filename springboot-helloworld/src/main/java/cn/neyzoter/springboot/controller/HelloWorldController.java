@@ -6,8 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloWorldController {
+    // url : http://localhost:[port]/springboot-helloworld/api/helloworld
     @RequestMapping(value = "/springboot-helloworld/api/helloworld",method = RequestMethod.GET)
     public String helloWorld(){
-        return "Hellow World!";
+        return "Hello World!";
     }
 }
