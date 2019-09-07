@@ -1,1 +1,5 @@
-*/target/
+# file
+*.class
+
+# folder
+target/
