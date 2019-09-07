@@ -1,6 +1,6 @@
-package cn.neyzoter.springboot;
+package cn.neyzoter.springboot.bean;
 
-import cn.neyzoter.springboot.controller.HelloWorldController;
+import cn.neyzoter.springboot.bean.controller.HelloWorldController;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -12,6 +12,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.junit.Assert.assertEquals;
 
+
+/**
+ *
+ * Created by @Neyzoter on 19/9/7.
+ */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class HelloWorldApplicationTest {
