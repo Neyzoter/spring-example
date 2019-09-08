@@ -5,8 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 /**
- *
- * Created by @Neyzoter on 19/9/6.
+ * Hello world application
+ * @author Nezoter Song
+ * @date 2019/9/6
  */
 @SpringBootApplication
 public class HelloWorldApplication {

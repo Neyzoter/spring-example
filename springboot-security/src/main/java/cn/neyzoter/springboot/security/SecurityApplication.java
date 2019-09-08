@@ -1,16 +1,16 @@
-package cn.neyzoter.springboot.bean;
+package cn.neyzoter.springboot.security;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Bean application
+ * Security application
  * @author Neyzoter Song
- * @date 2019/9/6
+ * @date 2019/9/8
  */
 @SpringBootApplication
-public class BeanApplication {
+public class SecurityApplication {
     public static void main(String args[]){
-        SpringApplication.run(BeanApplication.class,args);
+        SpringApplication.run(SecurityApplication.class,args);
     }
 }

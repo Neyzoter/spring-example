@@ -12,8 +12,8 @@ import java.util.Iterator;
 
 /**
  * Book Service Implement
- *
- * Create by @Neyzoter on 19/9/7
+ * @author Neyzoter Song
+ * @date 2019/9/7
  */
 @Service("autowiredBookServiceImpl")
 public class BookServiceImpl implements BookService {

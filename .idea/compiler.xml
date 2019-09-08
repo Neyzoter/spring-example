@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-security" />
         <module name="springboot-bean" />
         <module name="springboot-helloworld" />
         <module name="springboot-kafka-basic" />
@@ -18,6 +19,7 @@
       <module name="springboot-bean" options="-parameters" />
       <module name="springboot-helloworld" options="-parameters" />
       <module name="springboot-kafka-basic" options="-parameters" />
+      <module name="springboot-security" options="-parameters" />
     </option>
   </component>
 </project>

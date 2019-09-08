@@ -16,6 +16,7 @@
         <module>springboot-helloworld</module>
         <module>springboot-bean</module>
         <module>springboot-kafka-basic</module>
+        <module>springboot-security</module>
     </modules>
 
     <groupId>cn.neyzoter</groupId>

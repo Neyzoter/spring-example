@@ -2,6 +2,11 @@ package cn.neyzoter.springboot.bean.service;
 
 import java.util.ArrayList;
 
+/**
+ * Book Service interface
+ * @author Neyzoter Song
+ * @date 2019/9/6
+ */
 public interface BookService {
 
     /**

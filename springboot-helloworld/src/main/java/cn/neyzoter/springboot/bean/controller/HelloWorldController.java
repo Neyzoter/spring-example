@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 /**
- * @apiNote http请求返回hello world
- *
- * Created by @Neyzoter on 19/9/6.
+ * http request , return hello world
+ * @author Neyzoter Song
+ * @date 2019/9/6
  */
 @RestController
 public class HelloWorldController {

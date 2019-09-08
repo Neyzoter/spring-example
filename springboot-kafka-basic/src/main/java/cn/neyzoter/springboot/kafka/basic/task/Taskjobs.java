@@ -10,8 +10,8 @@ import org.springframework.stereotype.Component;
 
 /**
  * Task jobs
- *
- * Create by @Neyzoter on 19/9/7
+ * @author Neyzoter Song
+ * @data 19/9/7
  */
 @Component("taskJob")
 public class Taskjobs {
