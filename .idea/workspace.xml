@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f82ac8fb-45d7-41d0-bd55-362bfb82329e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-security/src/main/java/cn/neyzoter/springboot/security/web/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security/src/main/java/cn/neyzoter/springboot/security/web/controller/Controller.java" afterDir="false" />
-    </list>
+    <list default="true" id="f82ac8fb-45d7-41d0-bd55-362bfb82329e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springboot-helloworld/target/" />
@@ -136,7 +131,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="55" />
     <option name="y" value="-4" />
     <option name="width" value="1865" />
@@ -304,7 +299,7 @@
       <updated>1567773696106</updated>
       <workItem from="1567773699241" duration="1400000" />
       <workItem from="1567775171194" duration="23315000" />
-      <workItem from="1567860097557" duration="4967000" />
+      <workItem from="1567860097557" duration="5571000" />
     </task>
     <servers />
   </component>
@@ -329,10 +324,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29682000" />
+    <option name="totallyTimeSpent" value="30286000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
+    <frame x="55" y="-4" width="1865" height="1084" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20395821" />
