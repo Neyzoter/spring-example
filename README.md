@@ -16,7 +16,12 @@ This module is a example of Spring IoC, which create and use Bean object by anno
 
 * **springboot-kafka-basic**
 
-This module is a example of Spring-Kafka usage.You can copy springboot-kafka-basic-quickstart.sh in this module to KAFKA_HOME and run it, which hep you quick start kafka.
+This module is a example of Spring-Kafka usage.You can copy springboot-kafka-basic-quickstart.sh in this module to KAFKA_HOME and run it, which help you quick start kafka.
+
+* **springboot-kafka-serializer**
+
+This module is a example of Spring-Kafka SELF-DEFINED serializer usage.You can copy kafka-quickstart.sh in this module to KAFKA_HOME and run it, which help you quick start kafka.
+
 
 * **springboot-security**
 

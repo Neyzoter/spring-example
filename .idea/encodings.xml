@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/springboot-bean" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-helloworld" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-kafka-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-kafka-serializer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-security" charset="UTF-8" />
   </component>
 </project>

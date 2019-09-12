@@ -9,6 +9,7 @@
         <module name="springboot-security" />
         <module name="springboot-bean" />
         <module name="springboot-helloworld" />
+        <module name="springboot-kafka-serializer" />
         <module name="springboot-kafka-basic" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="springboot-bean" options="-parameters" />
       <module name="springboot-helloworld" options="-parameters" />
       <module name="springboot-kafka-basic" options="-parameters" />
+      <module name="springboot-kafka-serializer" options="-parameters" />
       <module name="springboot-security" options="-parameters" />
     </option>
   </component>
