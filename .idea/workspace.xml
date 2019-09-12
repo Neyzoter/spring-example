@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f82ac8fb-45d7-41d0-bd55-362bfb82329e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f82ac8fb-45d7-41d0-bd55-362bfb82329e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springboot-helloworld/target/" />
@@ -27,15 +21,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/domain/vehicle/VehicleHttpPack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/domain/vehicle/RuntimeData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -53,14 +38,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="18" column="147" selection-start-line="18" selection-start-column="147" selection-end-line="18" selection-end-column="147" />
+              <first_editor relative-caret-position="495">
+                <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/test/java/cn/neyzoter/springboot/kafka/serializer/TestSpringbootApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,6 +183,7 @@
         <option value="$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/service/kafka/impl/KafkaListenerImpl.java" />
         <option value="$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/web/Controller.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/springboot-kafka-serializer/src/test/java/cn/neyzoter/springboot/kafka/serializer/TestSpringbootApplication.java" />
       </list>
     </option>
   </component>
@@ -241,52 +239,61 @@
             <path>
               <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-helloworld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-helloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-helloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-helloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-helloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-helloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-example" type="462c0819:PsiDirectoryNode" />
               <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serialization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serializer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -440,7 +447,7 @@
       <workItem from="1567773699241" duration="1400000" />
       <workItem from="1567775171194" duration="23315000" />
       <workItem from="1567860097557" duration="8828000" />
-      <workItem from="1568210068395" duration="2849000" />
+      <workItem from="1568210068395" duration="3624000" />
     </task>
     <servers />
   </component>
@@ -465,13 +472,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36392000" />
+    <option name="totallyTimeSpent" value="37167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="1076" width="1865" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24189115" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24848817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -481,13 +488,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2874618" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2874618" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32925585" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.25993884" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2130479" />
       <window_info anchor="bottom" id="Docker" order="9" weight="0.32925585" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -866,10 +873,20 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="18" column="147" selection-start-line="18" selection-start-column="147" selection-end-line="18" selection-end-column="147" />
+          <first_editor relative-caret-position="495">
+            <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/test/java/cn/neyzoter/springboot/kafka/serializer/TestSpringbootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
