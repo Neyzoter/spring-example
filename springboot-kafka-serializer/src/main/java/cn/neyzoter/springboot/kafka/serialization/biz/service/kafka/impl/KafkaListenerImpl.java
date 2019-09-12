@@ -13,7 +13,6 @@ import org.springframework.stereotype.Component;
  * @date 2019/9/6
  */
 @Component
-@PropertySource(value = "classpath:application-kafka-vehicle.properties")
 public class KafkaListenerImpl {
     private final static Logger logger = LoggerFactory.getLogger(KafkaListenerImpl.class);
     @KafkaListener(topics = "VehicleHttpPack")
