@@ -8,7 +8,11 @@ This repository contains many Spring usage examples.
 
 * **springboot-helloworld**
 
-This module is a example of http request, which can return "Hello World".Meanwhile, it contains JUnit test function.
+This module is a example of http-request handler, which can return "Hello World".Meanwhile, it contains JUnit test function.
+
+* **springboot-RestTemplate**
+
+This module is a example of http post-request for InfluxDB, which posts vehicles' speed to the db.
 
 * **springboot-bean**
 
