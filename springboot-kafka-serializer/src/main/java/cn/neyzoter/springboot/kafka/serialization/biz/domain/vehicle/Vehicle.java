@@ -16,7 +16,7 @@ public class Vehicle implements Serializable {
      * set Application
      * @param appId
      */
-    public void setApplication(long appId){
+    public void setApp(long appId){
         this.app = appId;
     }
 
@@ -24,7 +24,7 @@ public class Vehicle implements Serializable {
      * get Application id
      * @return
      */
-    public long getApplication() {
+    public long getApp() {
         return app;
     }
 
@@ -48,7 +48,7 @@ public class Vehicle implements Serializable {
      * get runtime data
      * @return {@link RuntimeData}
      */
-    public RuntimeData getData(){
+    public RuntimeData getRtData(){
         return this.rtData;
     }
 
@@ -63,6 +63,7 @@ public class Vehicle implements Serializable {
     @Override
     public String toString(){
         String str = "{" +
+                "app="+this.app+","+
                 "id=" + this.id + ","+
                 "rtData=" +
                 this.rtData.toString()+
