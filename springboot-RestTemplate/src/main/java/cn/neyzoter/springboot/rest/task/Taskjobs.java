@@ -66,7 +66,7 @@ public class Taskjobs {
             HttpHeaders headers = new HttpHeaders();
             headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
             headers.add("Authorization", "Token "+token);
-            String lineProtoBody = this.measurement+","+this.tags+" "+this.fields+Math.sin((double) this.counter);
+            String lineProtoBody = this.measurement+","+this.tags+" "+this.fields+100*Math.sin((double) this.counter);
 
             HttpEntity<String> request = new HttpEntity<>(lineProtoBody, headers);
             ResponseEntity<String> response = restTemplate.postForEntity( url, request , String.class );
