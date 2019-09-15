@@ -18,6 +18,7 @@
         <module>springboot-kafka-basic</module>
         <module>springboot-security</module>
         <module>springboot-kafka-serializer</module>
+        <module>springboot-RestTemplate</module>
     </modules>
 
     <groupId>cn.neyzoter</groupId>
