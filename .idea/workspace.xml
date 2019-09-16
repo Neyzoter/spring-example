@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f82ac8fb-45d7-41d0-bd55-362bfb82329e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/service/kafka/impl/KafkaListenerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/service/kafka/impl/KafkaListenerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,6 +15,7 @@
     <ignored path="$PROJECT_DIR$/springboot-security/target/" />
     <ignored path="$PROJECT_DIR$/springboot-kafka-serializer/target/" />
     <ignored path="$PROJECT_DIR$/springboot-RestTemplate/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-mybatis-mysql/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,70 +28,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-RestTemplate/src/main/java/cn/neyzoter/springboot/rest/task/Taskjobs.java">
+        <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="71" column="104" selection-start-line="64" selection-start-column="12" selection-end-line="71" selection-end-column="104" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="480">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/domain/vehicle/VehicleHttpPack.java">
+        <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-810">
-              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            <state relative-caret-position="30">
+              <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/domain/vehicle/RuntimeData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-151">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/domain/vehicle/Vehicle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/common/SerializationUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/util/BaseMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="130" selection-start-line="6" selection-start-column="130" selection-end-line="6" selection-end-column="130" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/web/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="21" />
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,10 +58,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/test/java/cn/neyzoter/springboot/kafka/serializer/TestSpringbootApplication.java">
+        <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/biz/Taskjobs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,10 +70,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/SpringbootApplication.java">
+        <entry file="file://$PROJECT_DIR$/springboot-kafka-basic/src/main/java/cn/neyzoter/springboot/kafka/basic/task/Taskjobs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/MySqlMapper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/special/InsertListMapper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13.jar!/org/apache/catalina/mapper/Mapper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/dao/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,10 +121,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/service/kafka/impl/KafkaListenerImpl.java">
+        <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="210">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,13 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-helloworld/src/main/java/cn/neyzoter/springboot/SpringbootApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-helloworld/src/main/java/cn/neyzoter/springboot/HelloWorldApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-helloworld/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springboot-helloworld/src/test/java/cn/neyzoter/springboot/HelloworldApplicationTest.java" />
-        <option value="$PROJECT_DIR$/springboot-helloworld/src/main/java/cn/neyzoter/springboot/controller/HelloWorldController.java" />
-        <option value="$PROJECT_DIR$/springboot-helloworld/src/test/java/cn/neyzoter/springboot/HelloWorldApplicationTest.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/springboot-helloworld/src/main/java/cn/neyzoter/springboot/helloworld/controller/HelloWorldController.java" />
         <option value="$PROJECT_DIR$/springboot-bean/src/main/java/cn/neyzoter/springboot/bean/web/HelloWorldApplication.java" />
         <option value="$PROJECT_DIR$/springboot-bean/src/main/java/cn/neyzoter/springboot/bean/web/controller/HelloWorldController.java" />
@@ -186,7 +183,6 @@
         <option value="$PROJECT_DIR$/springboot-kafka-serializer/src/main/resources/application-kafka-http.properties" />
         <option value="$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/service/kafka/impl/KafkaTemplateImpl.java" />
         <option value="$PROJECT_DIR$/springboot-kafka-serializer/src/main/resources/application-kafka-vehicle.properties" />
-        <option value="$PROJECT_DIR$/springboot-kafka-serializer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springboot-RestTemplate/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-RestTemplate/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springboot-RestTemplate/src/main/java/cn/neyzoter/springboot/rest/SpringbootApplication.java" />
@@ -194,6 +190,14 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/domain/vehicle/Vehicle.java" />
         <option value="$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/service/kafka/impl/KafkaListenerImpl.java" />
+        <option value="$PROJECT_DIR$/springboot-kafka-serializer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/SpringbootApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/util/BaseMapper.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/dao/User.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/biz/Taskjobs.java" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/mapper/UserMapper.java" />
       </list>
     </option>
   </component>
@@ -250,25 +254,70 @@
             <path>
               <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka-basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka-basic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka-basic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-kafka-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis-mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis-mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis-mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis-mysql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -276,95 +325,51 @@
             <path>
               <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis-mysql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serialization" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis-mysql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serialization" type="462c0819:PsiDirectoryNode" />
-              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="dal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis-mysql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serialization" type="462c0819:PsiDirectoryNode" />
-              <item name="biz" type="462c0819:PsiDirectoryNode" />
-              <item name="vehicle" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="dal" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis-mysql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serialization" type="462c0819:PsiDirectoryNode" />
-              <item name="biz" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="dal" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serialization" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serialization" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-mybatis-mysql" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-kafka-serializer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serializer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -380,7 +385,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-kafka-serializer/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot-learning-example" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -520,7 +525,8 @@
       <workItem from="1568340295982" duration="1943000" />
       <workItem from="1568516949972" duration="5436000" />
       <workItem from="1568533269777" duration="2014000" />
-      <workItem from="1568563439699" duration="328000" />
+      <workItem from="1568563439699" duration="523000" />
+      <workItem from="1568632476084" duration="5666000" />
     </task>
     <servers />
   </component>
@@ -545,13 +551,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49941000" />
+    <option name="totallyTimeSpent" value="55802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.262232" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2655305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -567,9 +573,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32925585" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35168195" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.35168195" />
       <window_info anchor="bottom" id="Docker" order="9" weight="0.32925585" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32925585" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -590,70 +596,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-bean/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-helloworld/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-kafka-basic/src/main/java/cn/neyzoter/springboot/kafka/basic/service/impl.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-kafka-basic/springboot-kafka-basic-quickstart.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.2.RELEASE/spring-kafka-2.2.2.RELEASE.jar!/org/springframework/kafka/core/KafkaTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="100" column="46" selection-start-line="100" selection-start-column="46" selection-end-line="100" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-helloworld/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-bean/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security/springboot-security.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-bean/src/main/java/cn/neyzoter/springboot/bean/service/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-bean/src/main/java/cn/neyzoter/springboot/bean/BeanApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-bean/src/main/java/cn/neyzoter/springboot/bean/web/controller/BeanController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -839,16 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-kafka-basic/src/main/java/cn/neyzoter/springboot/kafka/basic/task/Taskjobs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-RestTemplate/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -902,7 +834,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-RestTemplate/src/main/java/cn/neyzoter/springboot/rest/task/Taskjobs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="945">
           <caret line="71" column="104" selection-start-line="64" selection-start-column="12" selection-end-line="71" selection-end-column="104" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -912,21 +844,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/domain/vehicle/VehicleHttpPack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <state relative-caret-position="360">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/domain/vehicle/RuntimeData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-151">
+        <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/domain/vehicle/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
+        <state relative-caret-position="795">
           <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
         </state>
       </provider>
@@ -941,16 +873,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="130" selection-start-line="6" selection-start-column="130" selection-end-line="6" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/web/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="330">
           <caret line="28" column="21" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -960,11 +885,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/test/java/cn/neyzoter/springboot/kafka/serializer/TestSpringbootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="150">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/service/kafka/impl/KafkaListenerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -978,10 +917,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/service/kafka/impl/KafkaListenerImpl.java">
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/SpringbootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="285">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13.jar!/org/apache/catalina/mapper/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/special/InsertListMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/MySqlMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/dao/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/util/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-kafka-basic/src/main/java/cn/neyzoter/springboot/kafka/basic/task/Taskjobs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/biz/Taskjobs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

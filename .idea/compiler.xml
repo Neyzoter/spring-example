@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-kafka-serializer" />
         <module name="springboot-bean" />
+        <module name="springboot-mybatis-mysql" />
         <module name="springboot-security" />
         <module name="springboot-kafka-basic" />
         <module name="springboot-RestTemplate" />
@@ -23,6 +24,7 @@
       <module name="springboot-helloworld" options="-parameters" />
       <module name="springboot-kafka-basic" options="-parameters" />
       <module name="springboot-kafka-serializer" options="-parameters" />
+      <module name="springboot-mybatis-mysql" options="-parameters" />
       <module name="springboot-security" options="-parameters" />
     </option>
   </component>

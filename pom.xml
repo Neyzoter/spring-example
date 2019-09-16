@@ -19,6 +19,7 @@
         <module>springboot-security</module>
         <module>springboot-kafka-serializer</module>
         <module>springboot-RestTemplate</module>
+        <module>springboot-mybatis-mysql</module>
     </modules>
 
     <groupId>cn.neyzoter</groupId>
