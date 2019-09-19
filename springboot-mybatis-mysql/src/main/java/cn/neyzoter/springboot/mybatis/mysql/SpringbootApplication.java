@@ -12,7 +12,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * @author Neyzoter Song
  * @date 2019/9/16
  */
-@MapperScan(basePackages = "cn.neyzoter.springboot.mybatis.mysql.dal.mapper")
+@MapperScan(basePackages = "cn.neyzoter.springboot.mybatis.mysql.dal.dao")
 //@EnableScheduling
 @SpringBootApplication
 public class SpringbootApplication {

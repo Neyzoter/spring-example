@@ -1,0 +1,53 @@
+package cn.neyzoter.springboot.mybatis.mysql.dal.domain;
+
+import java.io.Serializable;
+
+/**
+ * User
+ * @author Neyzoter Song
+ * @date 2019/9/16
+ */
+public class User implements Serializable {
+    private static final long serialVersionUID = -1L;
+    /**
+     * main key
+     */
+    private String userName;
+
+    /**
+     * password
+     */
+    private String password;
+
+    /**
+     * get user name
+     * @return
+     */
+    public String getUserName() {
+        return userName;
+    }
+
+    /**
+     * set user name
+     * @param userName
+     */
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    /**
+     * get password
+     * @return
+     */
+    public String getPassword() {
+        return password;
+    }
+
+    /**
+     * set password
+     * @param password
+     */
+    public void setPassword(String password) {
+        this.password = password;
+    }
+}
