@@ -5,7 +5,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
@@ -14,8 +13,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * @date 2019/9/16
  */
 @MapperScan(basePackages = "cn.neyzoter.springboot.mybatis.mysql.dal.mapper")
-//@ComponentScan("cn.neyzoter.springboot.mybatis.mysql.biz")
-@EnableScheduling
+//@EnableScheduling
 @SpringBootApplication
 public class SpringbootApplication {
     private final static Logger logger = LoggerFactory.getLogger(SpringbootApplication.class);

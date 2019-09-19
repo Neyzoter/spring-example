@@ -13,7 +13,7 @@ import javax.annotation.Resource;
  * @author Neyzoter Song
  * @data 19/9/16
  */
-@Component("taskJob")
+@Component("taskjobs")
 public class Taskjobs {
     private final static Logger logger = LoggerFactory.getLogger(Taskjobs.class);
     /**
@@ -26,6 +26,6 @@ public class Taskjobs {
      */
     @Scheduled(cron="10/5 * * * * ?")
     public void saveUser(){
-        logger.info(userMapper.getAllUser().toString());
+        logger.info(userMapper.selectAll().toString());
     }
 }

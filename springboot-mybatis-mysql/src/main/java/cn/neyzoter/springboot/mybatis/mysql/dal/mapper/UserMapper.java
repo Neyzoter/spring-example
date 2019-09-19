@@ -13,10 +13,15 @@ import java.util.List;
  * @date 2019/9/16
  */
 public interface UserMapper extends BaseMapper<User> {
-    @Select(value = "select * from User")
-    List<User> getAllUser();
 
-
-    @Insert(value = "insert into user(userName,password) values(#{userName}, #{password})")
-    void insertUser(String userName, String password);
+//    /**
+//     * get all users
+//     * @return
+//     */
+//    @Select(value = "select * from User")
+//    List<User> getAllUser();
+//
+//
+//    @Insert(value = "insert into user(userName,password) values(#{userName}, #{password})")
+//    void insertUser(String userName, String password);
 }
