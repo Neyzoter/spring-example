@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f82ac8fb-45d7-41d0-bd55-362bfb82329e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mybatis-mysql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis-mysql/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/SpringbootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/SpringbootApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/biz/Taskjobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/biz/Taskjobs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/dao/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/mapper/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/util/BaseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/resources/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -114,14 +106,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/biz/Taskjobs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
+            <state relative-caret-position="360">
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
                 <element signature="e#779#780#0" expanded="true" />
               </folding>
             </state>
@@ -227,10 +219,10 @@
         <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/dao/User.java" />
         <option value="$PROJECT_DIR$/springboot-mybatis-mysql/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/biz/Taskjobs.java" />
         <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/biz/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/SpringbootApplication.java" />
         <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/biz/Taskjobs.java" />
       </list>
     </option>
   </component>
@@ -544,7 +536,7 @@
       <workItem from="1568632476084" duration="5942000" />
       <workItem from="1568769336442" duration="4021000" />
       <workItem from="1568774128913" duration="3143000" />
-      <workItem from="1568924773111" duration="6097000" />
+      <workItem from="1568924773111" duration="6198000" />
     </task>
     <servers />
   </component>
@@ -569,7 +561,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69339000" />
+    <option name="totallyTimeSpent" value="69440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
@@ -585,13 +577,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41182467" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41182467" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32925585" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.25993884" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25993884" />
       <window_info anchor="bottom" id="Docker" order="9" weight="0.32925585" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32925585" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32925585" />
@@ -930,18 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/biz/Taskjobs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/biz/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1020,8 +1000,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/biz/Taskjobs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
