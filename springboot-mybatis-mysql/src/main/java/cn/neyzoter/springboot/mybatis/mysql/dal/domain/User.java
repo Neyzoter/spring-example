@@ -50,4 +50,13 @@ public class User implements Serializable {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    @Override
+    public String toString(){
+        String str = "User = {"+
+                "userName:"+this.userName+"  "+
+                "password:"+this.password+
+                "}";
+        return str;
+    }
 }

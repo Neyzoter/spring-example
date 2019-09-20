@@ -10,5 +10,5 @@ import java.util.List;
  * @date 2019/9/20
  */
 public interface UserService {
-    List<User> findAllUser();
+    List<User> findUser(String userName);
 }

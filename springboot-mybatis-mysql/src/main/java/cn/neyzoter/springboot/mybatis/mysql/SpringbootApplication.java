@@ -13,7 +13,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * @date 2019/9/16
  */
 @MapperScan(basePackages = "cn.neyzoter.springboot.mybatis.mysql.dal.dao")
-//@EnableScheduling
+@EnableScheduling
 @SpringBootApplication
 public class SpringbootApplication {
     private final static Logger logger = LoggerFactory.getLogger(SpringbootApplication.class);

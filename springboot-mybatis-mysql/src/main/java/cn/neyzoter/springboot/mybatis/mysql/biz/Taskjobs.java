@@ -22,6 +22,6 @@ public class Taskjobs {
      */
     @Scheduled(cron="10/5 * * * * ?")
     public void saveUser(){
-        logger.info(userService.findAllUser().toString());
+        logger.info(userService.findUser("song").toString());
     }
 }
