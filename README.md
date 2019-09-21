@@ -26,10 +26,9 @@ This module is a example of Spring-Kafka usage.You can copy springboot-kafka-bas
 
 This module is a example of Spring-Kafka SELF-DEFINED serializer usage.You can copy kafka-quickstart.sh in this module to KAFKA_HOME and run it, which help you quick start kafka.
 
-
 * **springboot-security**
 
-This module is a example of Spring-Security.
+This module is a example of Spring-Security.The springboot-parent version must match, otherwise will "stream classdesc serialVersionUID = 500, local class serialVersionUID = 510". 
 
 ## contact
 
