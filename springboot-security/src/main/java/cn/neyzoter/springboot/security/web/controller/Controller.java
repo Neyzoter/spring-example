@@ -1,9 +1,8 @@
 package cn.neyzoter.springboot.security.web.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * controller
@@ -29,5 +28,11 @@ public class Controller {
         }else{
             return "Error";
         }
+    }
+
+    @RequestMapping(value = "/springboot-security/api/login-oauth2/{id}",method = RequestMethod.GET)
+    public String loginOauth2(@PathVariable String id){
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        return "order id : " + id;
     }
 }
