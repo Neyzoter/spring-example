@@ -32,11 +32,20 @@ public class OAuth2ServerConfig {
     @EnableResourceServer
     protected static class ResourceServerConfiguration extends ResourceServerConfigurerAdapter {
 
+        /**
+         * config resource server
+         * @param resources
+         */
         @Override
         public void configure(ResourceServerSecurityConfigurer resources) {
             resources.resourceId(DEMO_RESOURCE_ID).stateless(true);
         }
 
+        /**
+         * config http security
+         * @param http
+         * @throws Exception
+         */
         @Override
         public void configure(HttpSecurity http) throws Exception {
             http
