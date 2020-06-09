@@ -3,3 +3,6 @@
 
 # folder
 target/
+
+# idea
+.idea/

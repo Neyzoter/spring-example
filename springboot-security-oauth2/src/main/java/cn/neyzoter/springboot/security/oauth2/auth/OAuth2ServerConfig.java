@@ -1,4 +1,5 @@
-package cn.neyzoter.springboot.security.biz.service.config;
+package cn.neyzoter.springboot.security.oauth2.auth;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -18,65 +19,39 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Res
 import org.springframework.security.oauth2.provider.token.store.redis.RedisTokenStore;
 
 /**
- * Oauth server configuration
- * @author Neyzoter Song
- * @date 2019/9/20
+ * @author 徐靖峰
+ * Date 2018-04-19
  */
 @Configuration
 public class OAuth2ServerConfig {
 
     private static final String DEMO_RESOURCE_ID = "order";
 
-    /**
-     * 资源服务器
-     * @author Charles Song
-     * @date 2020-6-7
-     */
     @Configuration
     @EnableResourceServer
     protected static class ResourceServerConfiguration extends ResourceServerConfigurerAdapter {
 
-        /**
-         * config resource server
-         * @param resources
-         */
         @Override
         public void configure(ResourceServerSecurityConfigurer resources) {
             resources.resourceId(DEMO_RESOURCE_ID).stateless(true);
         }
 
-        /**
-         * config http security
-         * @param http
-         * @throws Exception
-         */
         @Override
         public void configure(HttpSecurity http) throws Exception {
             http
-                    .authorizeRequests()
+                .authorizeRequests()
                     .antMatchers("/order/**").authenticated();//配置order访问控制，必须认证过后才可以访问
 
         }
     }
 
 
-    /**
-     * 配置授权服务器
-     * @author Charles Song
-     * @date 2020-6-7
-     */
     @Configuration
     @EnableAuthorizationServer
     protected static class AuthorizationServerConfiguration extends AuthorizationServerConfigurerAdapter {
 
-        /**
-         * 支持password模式
-         */
         @Autowired
         AuthenticationManager authenticationManager;
-        /**
-         * 连接Redis
-         */
         @Autowired
         RedisConnectionFactory redisConnectionFactory;
 
@@ -108,16 +83,8 @@ public class OAuth2ServerConfig {
         @Override
         public void configure(AuthorizationServerEndpointsConfigurer endpoints) {
             endpoints
-                    // token的存储位置
-                    // 还可以配置邨出到内存中
-                    /**
-                     *     @Autowired(required = false)
-                     *     TokenStore inMemoryTokenStore;
-                     */
                     .tokenStore(new RedisTokenStore(redisConnectionFactory))
-                    //
                     .authenticationManager(authenticationManager)
-                    // 允许token的请求方式
                     .allowedTokenEndpointRequestMethods(HttpMethod.GET, HttpMethod.POST);
         }
 
@@ -128,4 +95,5 @@ public class OAuth2ServerConfig {
         }
 
     }
+
 }

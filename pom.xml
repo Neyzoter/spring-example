@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.1.RELEASE</version>
+        <version>2.3.0.RELEASE</version>
         <relativePath/>
     </parent>
 
@@ -20,6 +20,7 @@
         <module>springboot-kafka-serializer</module>
         <module>springboot-RestTemplate</module>
         <module>springboot-mybatis-mysql</module>
+        <module>springboot-security-oauth2</module>
     </modules>
 
     <groupId>cn.neyzoter</groupId>
