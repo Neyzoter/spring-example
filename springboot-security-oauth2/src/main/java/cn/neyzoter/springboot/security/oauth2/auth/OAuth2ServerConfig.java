@@ -19,8 +19,9 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Res
 import org.springframework.security.oauth2.provider.token.store.redis.RedisTokenStore;
 
 /**
- * @author 徐靖峰
- * Date 2018-04-19
+ * OAuth 配置
+ * @author Charles Song
+ * @date 2020-6-9
  */
 @Configuration
 public class OAuth2ServerConfig {
