@@ -5,7 +5,12 @@ import org.springframework.security.core.GrantedAuthority;
 import java.io.Serializable;
 
 /**
- * 角色,映射表authority
+ * 角色,映射表authority<br/>
+ * <pre>
+ *     ROLE_OAUTH_ADMIN
+ *     ROLE_RESOURCE_ADMIN
+ *     ROLE_PROJECT_ADMIN
+ * </pre>
  * @author Charles Song
  * @date 2020-6-25
  */

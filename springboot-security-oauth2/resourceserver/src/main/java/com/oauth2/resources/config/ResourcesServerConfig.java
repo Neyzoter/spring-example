@@ -56,7 +56,6 @@ public class ResourcesServerConfig extends ResourceServerConfigurerAdapter {
 //    public TokenStore tokenStore() {
 //        return new JdbcTokenStore(dataSource);
 //    }
-
     /**
      * 将token存放在redis中
      * @return TokenStore
@@ -82,7 +81,9 @@ public class ResourcesServerConfig extends ResourceServerConfigurerAdapter {
                 .logoutSuccessHandler(logoutSuccessHandler)
                 .and()
                 .authorizeRequests()
+                // 配置不需要token的path
                 .antMatchers("/test/hello").permitAll()
+                // 配置需要token的path
                 .antMatchers("/test/**").authenticated();
     }
 }

@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f82ac8fb-45d7-41d0-bd55-362bfb82329e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-oauth2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/Authority.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/Authority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/Credentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/Credentials.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/CredentialsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/CredentialsDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/JdbcUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/JdbcUserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/oauth2_client_info.sql" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/tables_for_oauth2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/proj_insert_client.sql" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/insert_client.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/proj_oauth2_client_info.sql" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/create_client_tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-oauth2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/resourceserver/src/main/java/com/oauth2/resources/config/ResourcesServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-oauth2/resourceserver/src/main/java/com/oauth2/resources/config/ResourcesServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/resourceserver/src/main/java/com/oauth2/resources/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-oauth2/resourceserver/src/main/java/com/oauth2/resources/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/resourceserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-oauth2/resourceserver/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/script/mysql/oauth2_client.sql" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,44 +57,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/config/AuthorizationServerConfig.java">
+        <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/JdbcUserDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2002#2003#0" expanded="true" />
-                <element signature="e#2065#2066#0" expanded="true" />
-                <element signature="e#2265#2266#0" expanded="true" />
-                <element signature="e#2331#2332#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/src/main/java/cn/neyzoter/springboot/security/oauth2/auth/OAuth2ServerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="55" selection-start-line="55" selection-end-line="56" selection-end-column="54" />
+            <state relative-caret-position="570">
+              <caret line="38" column="23" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,19 +69,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/Credentials.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="-98">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/src/main/java/cn/neyzoter/springboot/security/oauth2/auth/SecurityConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/resourceserver/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/CredentialsDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-67">
-              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="36" />
+            <state relative-caret-position="87">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,28 +95,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/resourceserver/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/resourceserver/src/main/java/com/oauth2/resources/controller/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/resourceserver/src/main/java/com/oauth2/resources/config/ResourcesServerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+            <state relative-caret-position="697">
+              <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -153,8 +106,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/config/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+            <state relative-caret-position="264">
+              <caret line="33" column="42" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/test/java/com/oauth2/authorization/config/testBCryptPswEncoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.3.2.RELEASE/spring-security-core-5.3.2.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="80" column="34" lean-forward="true" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+              <folding>
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.3.2.RELEASE/spring-security-core-5.3.2.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCrypt.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="404" selection-start-line="404" selection-end-line="406" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.3.2.RELEASE/spring-security-core-5.3.2.RELEASE.jar!/org/springframework/security/crypto/password/PasswordEncoder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -177,8 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-kafka-serializer/src/main/java/cn/neyzoter/springboot/kafka/serialization/biz/service/kafka/impl/KafkaListenerImpl.java" />
-        <option value="$PROJECT_DIR$/springboot-kafka-serializer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/util/BaseMapper.java" />
         <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/resources/schema.sql" />
         <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/mapper/UserMapper.java" />
@@ -214,20 +208,22 @@
         <option value="$PROJECT_DIR$/springboot-security-oauth2/script/mysql/oauth2_client.sql" />
         <option value="$PROJECT_DIR$/springboot-security-oauth2/script/mysql/oauth2_client_info.sql" />
         <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/oauth2_client_info.sql" />
-        <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/proj_oauth2_client_info.sql" />
         <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/proj_insert_client.sql" />
         <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-security-oauth2/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-security-oauth2/README.md" />
-        <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/Authority.java" />
-        <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/CredentialsDao.java" />
-        <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/JdbcUserDetails.java" />
-        <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/springboot-security-oauth2/resourceserver/src/main/java/com/oauth2/resources/controller/TestController.java" />
         <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot-security-oauth2/resourceserver/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/config/AuthorizationServerConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/Authority.java" />
+        <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/proj_oauth2_client_info.sql" />
+        <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/JdbcUserDetails.java" />
         <option value="$PROJECT_DIR$/springboot-security-oauth2/resourceserver/src/main/java/com/oauth2/resources/config/ResourcesServerConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/Credentials.java" />
+        <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/CredentialsDao.java" />
+        <option value="$PROJECT_DIR$/springboot-security-oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/test/java/com/oauth2/authorization/config/testBCryptPswEncoder.java" />
       </list>
     </option>
   </component>
@@ -328,20 +324,7 @@
               <item name="authserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="authserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="authorization" type="462c0819:PsiDirectoryNode" />
-              <item name="userdetails" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
@@ -351,6 +334,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="authserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="authserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="authserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
@@ -419,64 +430,6 @@
               <item name="spring-example" type="462c0819:PsiDirectoryNode" />
               <item name="springboot-security-oauth2" type="462c0819:PsiDirectoryNode" />
               <item name="resourceserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security-oauth2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -689,7 +642,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ResourceServerApplication">
+  <component name="RunManager" selected="JUnit.testBCryptPswEncoder">
+    <configuration name="testBCryptPswEncoder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="authserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oauth2.authorization.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oauth2.authorization.config" />
+      <option name="MAIN_CLASS_NAME" value="com.oauth2.authorization.config.testBCryptPswEncoder" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testBCryptPswEncoder.testBcPswEnc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="authserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oauth2.authorization.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.oauth2.authorization.config" />
+      <option name="MAIN_CLASS_NAME" value="com.oauth2.authorization.config.testBCryptPswEncoder" />
+      <option name="METHOD_NAME" value="testBcPswEnc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AuthorizationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="authserver" />
       <extension name="coverage">
@@ -729,47 +713,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-security" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.neyzoter.springboot.security.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.neyzoter.springboot.security.SecurityApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="LocalDocker">
-      <deployment type="docker-image">
-        <settings>
-          <option name="command" value="" />
-          <option name="containerName" value="" />
-          <option name="entrypoint" value="" />
-          <option name="imageTag" value="redis:latest" />
-          <option name="portBindings">
-            <list>
-              <DockerPortBindingImpl>
-                <option name="containerPort" value="6397" />
-                <option name="hostIp" value="127.0.0.1" />
-                <option name="hostPort" value="6397" />
-              </DockerPortBindingImpl>
-            </list>
-          </option>
-          <option name="commandLineOptions" value="" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ResourceServerApplication" />
+        <item itemvalue="JUnit.testBCryptPswEncoder" />
+        <item itemvalue="JUnit.testBCryptPswEncoder.testBcPswEnc" />
         <item itemvalue="Spring Boot.AuthorizationServerApplication" />
+        <item itemvalue="Spring Boot.ResourceServerApplication" />
         <item itemvalue="Spring Boot.MainApplication" />
-        <item itemvalue="Spring Boot.SecurityApplication" />
-        <item itemvalue="Docker.Docker Image" />
       </list>
     </recent_temporary>
   </component>
@@ -808,7 +758,7 @@
       <workItem from="1591603856467" duration="3297000" />
       <workItem from="1591698049394" duration="7149000" />
       <workItem from="1591705692537" duration="599000" />
-      <workItem from="1592967201602" duration="11736000" />
+      <workItem from="1592967201602" duration="16501000" />
     </task>
     <servers />
   </component>
@@ -831,9 +781,12 @@
     <history-entry file="HelloWorldApplicationTest_(1) - 2019.09.07 at 10h 12m 30s.xml">
       <configuration name="HelloWorldApplicationTest (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="testBCryptPswEncoder_testBcPswEnc - 2020.06.25 at 16h 47m 49s.xml">
+      <configuration name="testBCryptPswEncoder.testBcPswEnc" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137420000" />
+    <option name="totallyTimeSpent" value="142185000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -848,7 +801,7 @@
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7398922" visible="true" weight="0.23254536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7398922" visible="true" weight="0.21440352" />
       <window_info id="Structure" order="1" sideWeight="0.26081082" side_tool="true" weight="0.18526663" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -858,13 +811,13 @@
       <window_info id="Web" order="7" sideWeight="0.5052083" side_tool="true" weight="0.18526663" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34250763" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2874618" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39959225" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32925585" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32925585" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33231395" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.41590214" />
       <window_info anchor="bottom" id="Docker" order="9" weight="0.38735983" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32925585" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32925585" />
@@ -888,39 +841,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.2.RELEASE/spring-security-oauth2-2.3.2.RELEASE.jar!/org/springframework/security/oauth2/provider/token/store/redis/RedisTokenStore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springbootsecurityoauth2/pom.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.4.RELEASE/spring-security-web-5.0.4.RELEASE.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_211/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="142" column="23" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
-          <folding>
-            <element signature="e#5027#5028#0" expanded="true" />
-            <element signature="e#5098#5099#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.2.RELEASE/spring-security-oauth2-2.3.2.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/ResourceServerConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-security/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1023,23 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/proj_oauth2_client_info.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/proj_insert_client.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/resourceserver/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -1047,24 +950,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="51" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/resourceserver/src/main/java/com/oauth2/resources/ResourceServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/oauth2_client_info.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="275" selection-start-line="16" selection-end-line="22" selection-end-column="275" />
         </state>
       </provider>
     </entry>
@@ -1108,41 +997,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/Authority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/Credentials.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.2.6.RELEASE/spring-jdbc-5.2.6.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="548" column="31" selection-start-line="548" selection-start-column="31" selection-end-line="548" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/CredentialsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.3.2.RELEASE/spring-security-core-5.3.2.RELEASE.jar!/org/springframework/security/core/userdetails/User.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1178,16 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/JdbcUserDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1253,31 +1101,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/config/WebSecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/create_client_tables.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/config/AuthorizationServerConfig.java">
+    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/tms.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/insert_client.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2002#2003#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
-            <element signature="e#2265#2266#0" expanded="true" />
-            <element signature="e#2331#2332#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/resources/sql/tables_for_oauth2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/resourceserver/src/main/java/com/oauth2/resources/config/ResourcesServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+        <state relative-caret-position="277">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/config/AuthorizationServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="97" column="54" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/Authority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/Credentials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.3.2.RELEASE/spring-security-core-5.3.2.RELEASE.jar!/org/springframework/security/core/userdetails/User.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="44" column="48" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/CredentialsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/resourceserver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/userdetails/JdbcUserDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.3.2.RELEASE/spring-security-core-5.3.2.RELEASE.jar!/org/springframework/security/crypto/password/PasswordEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.3.2.RELEASE/spring-security-core-5.3.2.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="80" column="34" lean-forward="true" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+          <folding>
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.3.2.RELEASE/spring-security-core-5.3.2.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCrypt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="404" selection-start-line="404" selection-end-line="406" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/test/java/com/oauth2/authorization/config/testBCryptPswEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

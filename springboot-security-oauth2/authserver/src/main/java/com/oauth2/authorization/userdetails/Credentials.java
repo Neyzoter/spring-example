@@ -1,5 +1,6 @@
 package com.oauth2.authorization.userdetails;
 
+import lombok.ToString;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
@@ -9,7 +10,10 @@ import java.util.List;
 
 /**
  * 登录凭证，映射credentials表
+ * @author Charles Song
+ * @date 2020-6-25
  */
+@ToString
 public class Credentials implements Serializable {
     private Long id;
     private Integer version;

@@ -13,7 +13,6 @@ import java.util.Map;
  * @author Charles Song
  * @date 2020-6-25
  */
-
 @Repository
 public class CredentialsDao {
     @Autowired
@@ -49,6 +48,7 @@ public class CredentialsDao {
         credentials.setEnabled(enabled);
         credentials.setAuthorities(getAuthorities(id));
 
+//        System.out.println(credentials.toString());
         return credentials;
     }
 

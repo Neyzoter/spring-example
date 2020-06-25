@@ -7,12 +7,26 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
+/**
+ * 用户的JDB服务
+ * @author Charles Song
+ * @date 2020-6-25
+ */
 @Service("userDetailsService")
 public class JdbcUserDetails implements UserDetailsService {
 
+    /**
+     * 自定义用户查询操作
+     */
     @Autowired
     private CredentialsDao credentialsDao;
 
+    /**
+     * 根据用户名来获取User
+     * @param username 用户名
+     * @return UserDetails
+     * @throws UsernameNotFoundException 用户名未找到
+     */
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 

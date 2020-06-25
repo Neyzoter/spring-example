@@ -14,11 +14,15 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
- * spring security 配置类
+ * spring security 配置类<br/>
+ * EnableWebSecurity 禁用Boot的默认Security配置，配合@Configuration启用自定义配置<br/>
+ * EnableGlobalMethodSecurity(prePostEnabled = true): 启用Security注解，例如最常用的@PreAuthorize
+ * @author Charles Song
+ * @date 2020-6-25
  */
 @Configuration
 @EnableWebSecurity
-@EnableGlobalMethodSecurity(prePostEnabled = true) //开启security注解
+@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     /**
@@ -57,6 +61,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
+                // 所有都需要验证
                 .antMatchers("/**").authenticated()
                 .and()
                 .userDetailsService(userDetailsService);
