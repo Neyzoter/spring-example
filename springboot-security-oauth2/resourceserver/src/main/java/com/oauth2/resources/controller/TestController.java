@@ -28,7 +28,7 @@ public class TestController {
     }
 
     @GetMapping("/project")
-    @PreAuthorize("hasRole('ROLE_PROJECT_ADMIN2')")  //具有此角色
+    @PreAuthorize("hasRole('ROLE_PROJECT_ADMIN')")  //具有此角色
     public String project(){
         return "This is my project";
     }

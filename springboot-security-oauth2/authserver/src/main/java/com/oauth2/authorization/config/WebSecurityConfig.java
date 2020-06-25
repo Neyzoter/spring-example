@@ -23,7 +23,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     /**
      * 密码编码验证器
-     * @return
+     * @return PasswordEncoder
      */
     @Bean
     public PasswordEncoder passwordEncoder() {
@@ -50,7 +50,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     /**
      * 验证配置
-     * @param http
+     * @param http http
      * @throws Exception
      */
     @Override

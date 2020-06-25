@@ -6,6 +6,8 @@ import java.io.Serializable;
 
 /**
  * 角色,映射表authority
+ * @author Charles Song
+ * @date 2020-6-25
  */
 public class Authority implements GrantedAuthority, Serializable {
     private Long id;

@@ -16,6 +16,10 @@ spring:
   mvc:
     servlet:
       load-on-startup: 1
+  redis:
+    host: redis
+    database: 0
+    port: 6379
 server:
   port: 8081
 
