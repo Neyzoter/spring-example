@@ -10,6 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>springboot-security-oauth2</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>authserver</module>
+        <module>resourceserver</module>
+    </modules>
 
     <properties>
         <spring-security-oauth.version>2.3.6.RELEASE</spring-security-oauth.version>
@@ -36,7 +41,6 @@
             <artifactId>spring-security-oauth2</artifactId>
             <version>${spring-security-oauth.version}</version>
         </dependency>
-
 
 
     </dependencies>
