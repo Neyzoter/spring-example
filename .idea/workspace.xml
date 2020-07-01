@@ -6,7 +6,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp-tester/src/main/java/cn/neyzoter/springboot/netty/tester/TesterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/tcp-tester/src/main/java/cn/neyzoter/springboot/netty/tester/TesterApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp-tester/src/main/java/cn/neyzoter/springboot/netty/tester/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/tcp-tester/src/main/java/cn/neyzoter/springboot/netty/tester/netty/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp-tester/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tcp-tester/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,6 +25,7 @@
     <ignored path="$PROJECT_DIR$/springboot-security-oauth2/authserver/target/" />
     <ignored path="$PROJECT_DIR$/springboot-security-oauth2/resourceserver/target/" />
     <ignored path="$PROJECT_DIR$/tcp-tester/target/" />
+    <ignored path="$PROJECT_DIR$/tcp-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,37 +55,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/resourceserver/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tcp-tester/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="29" selection-start-line="29" selection-end-line="32" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tcp-tester/src/main/java/cn/neyzoter/springboot/netty/tester/TesterApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,13 +66,71 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tcp-tester/src/main/java/cn/neyzoter/springboot/netty/tester/netty/NettyClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="-2">
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tcp-server/src/main/java/cn/neyzoter/springboot/netty/server/ServerApplicaiton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tcp-server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tcp-tester/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="25" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tcp-server/src/main/java/cn/neyzoter/springboot/netty/server/netty/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tcp-server/src/main/java/cn/neyzoter/springboot/netty/server/netty/ConnectionCountHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,15 +146,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/ChannelInitializer.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tcp-tester/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -130,19 +155,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.3.2.RELEASE/spring-security-core-5.3.2.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCrypt.class">
+        <entry file="file://$PROJECT_DIR$/tcp-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5880">
-              <caret line="404" selection-start-line="404" selection-end-line="406" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.3.2.RELEASE/spring-security-core-5.3.2.RELEASE.jar!/org/springframework/security/crypto/password/PasswordEncoder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="405">
+              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -162,13 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/SpringbootApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/biz/Taskjobs.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/domain/User.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/biz/service/UserService.java" />
-        <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/biz/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java/cn/neyzoter/springboot/mybatis/mysql/dal/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/springboot-mybatis-mysql/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/springboot-security/src/main/java/cn/neyzoter/springboot/security/biz/service/config/SsbAuthorizationServerConfig.java" />
@@ -210,9 +219,16 @@
         <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/test/java/com/oauth2/authorization/config/testBCryptPswEncoder.java" />
         <option value="$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java/com/oauth2/authorization/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/tcp-tester/pom.xml" />
-        <option value="$PROJECT_DIR$/tcp-tester/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/tcp-tester/src/main/java/cn/neyzoter/springboot/netty/tester/TesterApp.java" />
+        <option value="$PROJECT_DIR$/tcp-tester/src/main/java/cn/neyzoter/springboot/netty/tester/netty/Server.java" />
+        <option value="$PROJECT_DIR$/tcp-tester/src/main/java/cn/neyzoter/springboot/netty/tester/netty/ConnectionCountHandler.java" />
+        <option value="$PROJECT_DIR$/tcp-tester/src/main/java/cn/neyzoter/springboot/netty/tester/ServerApp.java" />
         <option value="$PROJECT_DIR$/tcp-tester/src/main/java/cn/neyzoter/springboot/netty/tester/netty/NettyClient.java" />
+        <option value="$PROJECT_DIR$/tcp-server/pom.xml" />
+        <option value="$PROJECT_DIR$/tcp-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/tcp-tester/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/tcp-server/src/main/java/cn/neyzoter/springboot/netty/server/ServerApplicaiton.java" />
+        <option value="$PROJECT_DIR$/tcp-tester/src/main/java/cn/neyzoter/springboot/netty/tester/TesterApp.java" />
+        <option value="$PROJECT_DIR$/tcp-server/src/main/java/cn/neyzoter/springboot/netty/server/netty/Server.java" />
       </list>
     </option>
   </component>
@@ -265,7 +281,55 @@
             <path>
               <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-example" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
@@ -311,6 +375,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tester" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-example" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp-tester" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -564,15 +636,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResourceServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="resourceserver" />
+    <configuration name="ServerApplicaiton" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tcp-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oauth2.resources.*" />
+          <option name="PATTERN" value="cn.neyzoter.springboot.netty.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.oauth2.resources.ResourceServerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.neyzoter.springboot.netty.server.ServerApplicaiton" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -581,7 +653,7 @@
       <module name="tcp-tester" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.neyzoter.springboot.netty.tester.*" />
+          <option name="PATTERN" value="cn.neyzoter.springboot.netty.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -593,10 +665,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.TesterApp" />
+        <item itemvalue="Spring Boot.ServerApplicaiton" />
         <item itemvalue="JUnit.testBCryptPswEncoder" />
         <item itemvalue="JUnit.testBCryptPswEncoder.testBcPswEnc" />
         <item itemvalue="Spring Boot.AuthorizationServerApplication" />
-        <item itemvalue="Spring Boot.ResourceServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -637,7 +709,7 @@
       <workItem from="1591705692537" duration="599000" />
       <workItem from="1592967201602" duration="18602000" />
       <workItem from="1593332108819" duration="639000" />
-      <workItem from="1593590465288" duration="1132000" />
+      <workItem from="1593590465288" duration="3282000" />
     </task>
     <servers />
   </component>
@@ -668,7 +740,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146057000" />
+    <option name="totallyTimeSpent" value="148207000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -683,7 +755,7 @@
     <frame x="54" y="-11" width="1867" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7398922" visible="true" weight="0.21880154" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7398922" visible="true" weight="0.21880154" />
       <window_info id="Structure" order="1" sideWeight="0.26081082" side_tool="true" weight="0.18526663" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -693,13 +765,13 @@
       <window_info id="Web" order="7" sideWeight="0.5052083" side_tool="true" weight="0.18526663" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3975535" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24668705" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39959225" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32925585" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32925585" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.47706422" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33537206" />
       <window_info anchor="bottom" id="Docker" order="9" weight="0.38735983" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32925585" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32925585" />
@@ -723,53 +795,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-security/src/main/java/cn/neyzoter/springboot/security/biz/service/auth/SecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="65" selection-start-line="65" selection-end-line="70" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security/src/main/java/cn/neyzoter/springboot/security/biz/service/config/OAuth2ServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/src/main/java/cn/neyzoter/springboot/security/oauth2/auth/MyUserDetailsService.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/src/main/java/cn/neyzoter/springboot/security/oauth2/MainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/src/main/java/cn/neyzoter/springboot/security/oauth2/controller/Endpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -1049,22 +1074,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tcp-tester/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tcp-tester/src/main/resources/application.yml.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tcp-tester/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/ChannelInitializer.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1080,20 +1091,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tcp-tester/src/main/java/cn/neyzoter/springboot/netty/tester/TesterApp.java">
+    <entry file="file://$PROJECT_DIR$/tcp-tester/src/main/java/cn/neyzoter/springboot/netty/tester/netty/NettyClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="-2">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tcp-tester/src/main/java/cn/neyzoter/springboot/netty/tester/netty/NettyClient.java">
+    <entry file="file://$PROJECT_DIR$/tcp-server/src/main/java/cn/neyzoter/springboot/netty/server/ServerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tcp-tester/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tcp-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tcp-server/src/main/java/cn/neyzoter/springboot/netty/server/netty/ConnectionCountHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tcp-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tcp-tester/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tcp-tester/src/main/java/cn/neyzoter/springboot/netty/tester/TesterApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tcp-server/src/main/java/cn/neyzoter/springboot/netty/server/ServerApplicaiton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tcp-server/src/main/java/cn/neyzoter/springboot/netty/server/netty/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

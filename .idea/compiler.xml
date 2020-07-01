@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-kafka-serializer" />
         <module name="springboot-bean" />
+        <module name="tcp-server" />
         <module name="resourceserver" />
         <module name="tcp-tester" />
         <module name="springboot-mybatis-mysql" />
@@ -37,6 +38,7 @@
       <module name="springboot-security" options="-parameters" />
       <module name="springboot-security-oauth2" options="-parameters" />
       <module name="springbootsecurityoauth2" options="-parameters" />
+      <module name="tcp-server" options="-parameters" />
       <module name="tcp-tester" options="-parameters" />
     </option>
   </component>
