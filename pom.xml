@@ -21,6 +21,7 @@
         <module>springboot-RestTemplate</module>
         <module>springboot-mybatis-mysql</module>
         <module>springboot-security-oauth2</module>
+        <module>tcp-tester</module>
     </modules>
 
     <groupId>cn.neyzoter</groupId>

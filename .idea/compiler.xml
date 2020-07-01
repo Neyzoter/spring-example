@@ -2,17 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-kafka-serializer" />
         <module name="springboot-bean" />
-        <module name="springboot-RestTemplate" />
         <module name="resourceserver" />
+        <module name="tcp-tester" />
         <module name="springboot-mybatis-mysql" />
         <module name="springboot-security" />
         <module name="springboot-kafka-basic" />
+        <module name="springboot-RestTemplate" />
         <module name="springboot-helloworld" />
         <module name="authserver" />
       </profile>
@@ -35,6 +37,7 @@
       <module name="springboot-security" options="-parameters" />
       <module name="springboot-security-oauth2" options="-parameters" />
       <module name="springbootsecurityoauth2" options="-parameters" />
+      <module name="tcp-tester" options="-parameters" />
     </option>
   </component>
 </project>

@@ -48,7 +48,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+            // 配置用户加载服务
         auth.userDetailsService(userDetailsService)
+                // 设置密码编码器
                 .passwordEncoder(passwordEncoder());
     }
 
@@ -60,6 +62,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
+                // 验证请求
                 .authorizeRequests()
                 // 所有都需要验证
                 .antMatchers("/**").authenticated()
