@@ -23,6 +23,7 @@
         <module>springboot-security-oauth2</module>
         <module>tcp-tester</module>
         <module>tcp-server</module>
+        <module>jt808auth</module>
     </modules>
 
     <groupId>cn.neyzoter</groupId>

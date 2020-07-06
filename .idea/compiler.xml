@@ -9,15 +9,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-kafka-serializer" />
         <module name="springboot-bean" />
-        <module name="tcp-server" />
         <module name="resourceserver" />
         <module name="tcp-tester" />
+        <module name="tcp-server" />
         <module name="springboot-mybatis-mysql" />
         <module name="springboot-security" />
         <module name="springboot-kafka-basic" />
         <module name="springboot-RestTemplate" />
         <module name="springboot-helloworld" />
         <module name="authserver" />
+        <module name="jt808auth" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="authserver" options="-parameters" />
+      <module name="jt808auth" options="-parameters" />
       <module name="resourceserver" options="-parameters" />
       <module name="spring-example" options="-parameters" />
       <module name="springboot-RestTemplate" options="-parameters" />

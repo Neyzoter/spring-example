@@ -11,13 +11,17 @@ public final class Server {
     public void start(int beginPort, int nPort) {
         System.out.println("server starting....");
 
+        /**
+         * 下面的线程数目够多时才能来得及处理连接请求<br/>
+         * 比如设置为2和2，则快速连接就会出现拒绝连接的情况
+         */
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
 
         ServerBootstrap bootstrap = new ServerBootstrap();
         bootstrap.group(bossGroup, workerGroup);
         bootstrap.channel(NioServerSocketChannel.class);
-        bootstrap.childOption(ChannelOption.SO_REUSEADDR, false);
+        bootstrap.childOption(ChannelOption.SO_REUSEADDR, true);
 
         bootstrap.childHandler(new ConnectionCountHandler());
 

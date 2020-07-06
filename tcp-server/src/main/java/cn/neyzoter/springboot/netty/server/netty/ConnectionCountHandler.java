@@ -4,6 +4,8 @@ import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -11,6 +13,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 @ChannelHandler.Sharable
 public class ConnectionCountHandler extends ChannelInboundHandlerAdapter {
+    private static final Logger logger = LoggerFactory.getLogger(ConnectionCountHandler.class);
     //jdk1.5 并发包中的用于计数的类
     private AtomicInteger nConnection = new AtomicInteger();
 
@@ -19,7 +22,7 @@ public class ConnectionCountHandler extends ChannelInboundHandlerAdapter {
          *  每两秒统计一下连接数
          */
         Executors.newSingleThreadScheduledExecutor().scheduleAtFixedRate(() -> {
-            System.out.println("connections: " + nConnection.get());
+            logger.info("connections: " + nConnection.get());
         }, 0, 2, TimeUnit.SECONDS);
 
     }

@@ -11,8 +11,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 public class ServerApplicaiton {
-    private static final int BEGIN_PORT = 8000;
-    private static final int N_PORT = 1;
+    private static final int BEGIN_PORT = 8089;
+    private static final int N_PORT = 2;
     public static void main(String[] args) {
         SpringApplication.run(ServerApplicaiton.class, args);
         new Server().start(BEGIN_PORT, N_PORT);

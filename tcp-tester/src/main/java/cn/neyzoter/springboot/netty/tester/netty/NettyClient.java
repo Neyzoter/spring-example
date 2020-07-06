@@ -11,7 +11,9 @@ import io.netty.channel.socket.nio.NioSocketChannel;
  * @date 2020-7-1
  */
 public class NettyClient {
-    private static final String SERVER_HOST = "127.0.0.1";
+//    private static final String SERVER_HOST = "127.0.0.1";
+    private static final String SERVER_HOST = "47.110.251.155";
+//    private static final String SERVER_HOST = "114.55.104.50";
 
     public void start(final int beginPort, int nPort) {
         System.out.println("client starting....");
@@ -28,7 +30,7 @@ public class NettyClient {
         int index = 0;
         int port;
         while (!Thread.interrupted()) {
-            port = beginPort;
+            port = beginPort + index;
             try {
                 ChannelFuture channelFuture = bootstrap.connect(SERVER_HOST, port);
                 channelFuture.addListener((ChannelFutureListener) future -> {
@@ -43,6 +45,12 @@ public class NettyClient {
             if (++index == nPort) {
                 index = 0;
             }
+//            try {
+//                Thread.sleep(100);
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
+
         }
     }
 }
