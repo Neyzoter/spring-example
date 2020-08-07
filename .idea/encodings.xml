@@ -3,17 +3,32 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jt808auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jt808auth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-RestTemplate" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-RestTemplate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-aop/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-bean" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-bean/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-helloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-helloworld/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-kafka-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-kafka-basic/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-kafka-serializer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-kafka-serializer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mybatis-mysql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-mybatis-mysql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-security" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-security-oauth2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-security-oauth2/authserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-security-oauth2/authserver/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-security-oauth2/resourceserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-security-oauth2/resourceserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-security-oauth2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-security-oauth2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tcp-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcp-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tcp-tester" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcp-tester/src/main/java" charset="UTF-8" />
   </component>
 </project>

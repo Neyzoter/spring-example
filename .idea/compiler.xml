@@ -17,6 +17,7 @@
         <module name="springboot-kafka-basic" />
         <module name="springboot-RestTemplate" />
         <module name="springboot-helloworld" />
+        <module name="springboot-aop" />
         <module name="authserver" />
         <module name="jt808auth" />
       </profile>
@@ -32,6 +33,7 @@
       <module name="resourceserver" options="-parameters" />
       <module name="spring-example" options="-parameters" />
       <module name="springboot-RestTemplate" options="-parameters" />
+      <module name="springboot-aop" options="-parameters" />
       <module name="springboot-bean" options="-parameters" />
       <module name="springboot-helloworld" options="-parameters" />
       <module name="springboot-kafka-basic" options="-parameters" />

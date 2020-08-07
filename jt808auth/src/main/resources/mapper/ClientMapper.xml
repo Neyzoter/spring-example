@@ -7,18 +7,16 @@
         <result column="clientId" property="clientId" />
         <result column="password" property="password" />
     </resultMap>
-
     <sql id="Base_Column_List">
 		clientId, password
 	</sql>
-
+    <!-- select 语句 通过id来指定方法-->
     <select id="findClient" resultMap="BaseResultMap" parameterType="java.lang.String">
         select
         <include refid="Base_Column_List" />
         from client
         where clientId = #{clientId} and password = #{password}
     </select>
-
 </mapper>
 
 <!--

@@ -24,6 +24,7 @@
         <module>tcp-tester</module>
         <module>tcp-server</module>
         <module>jt808auth</module>
+        <module>springboot-aop</module>
     </modules>
 
     <groupId>cn.neyzoter</groupId>
