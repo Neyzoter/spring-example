@@ -21,7 +21,7 @@ spring:
     database: 0
     port: 6379
 server:
-  port: 8089
+  port: 8085
 security:
   oauth2:
     authorization:

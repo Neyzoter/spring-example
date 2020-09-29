@@ -12,7 +12,7 @@ public class testBCryptPswEncoder {
     @Test
     public void testBcPswEnc () {
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-        String enc = encoder.encode("password");
+        String enc = encoder.encode("web_application_123456");
         // 可以发现每次执行的结果不一样
         // 是如何实现密文和明文匹配的呢？
         // 密文中有salt的信息

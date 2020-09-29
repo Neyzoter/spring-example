@@ -14,11 +14,11 @@
         <module name="tcp-server" />
         <module name="springboot-mybatis-mysql" />
         <module name="springboot-security" />
-        <module name="springboot-kafka-basic" />
+        <module name="authserver" />
         <module name="springboot-RestTemplate" />
         <module name="springboot-helloworld" />
+        <module name="springboot-kafka-basic" />
         <module name="springboot-aop" />
-        <module name="authserver" />
         <module name="jt808auth" />
       </profile>
     </annotationProcessing>

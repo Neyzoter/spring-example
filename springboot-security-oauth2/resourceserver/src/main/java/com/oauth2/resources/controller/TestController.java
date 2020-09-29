@@ -24,14 +24,14 @@ public class TestController {
     @GetMapping("/welcome")
     public String welcome(){
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-        return "Welcome " + authentication.getName();
+        return "Welcome " + authentication.getName() + " " + authentication.getCredentials() + " " +
+                authentication.getDetails() + " principle " + authentication.getPrincipal();
     }
 
     @GetMapping("/project")
-    @PreAuthorize("hasRole('ROLE_PROJECT_ADMIN')")  //具有此角色
+    @PreAuthorize("hasRole('ROLE_SUPER_ADMIN')")  //具有此角色
     public String project(){
         return "This is my project";
     }
-
 
 }

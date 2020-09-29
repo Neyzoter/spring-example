@@ -1,5 +1,6 @@
 package com.oauth2.authorization.userdetails;
 
+import lombok.ToString;
 import org.springframework.security.core.GrantedAuthority;
 
 import java.io.Serializable;
@@ -14,6 +15,7 @@ import java.io.Serializable;
  * @author Charles Song
  * @date 2020-6-25
  */
+@ToString
 public class Authority implements GrantedAuthority, Serializable {
     private Long id;
 

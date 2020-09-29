@@ -34,6 +34,8 @@ public class JdbcUserDetails implements UserDetailsService {
         if (credentials == null) {
             throw new UsernameNotFoundException("User '" + username + "' can not be found");
         }
+        System.out.println(credentials.toString());
+        System.out.println(credentials.getAuthorities().toString());
 
         //此处授权也可以用credentials.getAuthorities(),但是在资源服务器解析的时候要引入自定义的com.oauth2.authorization.userdetails.Authority类否则会报找不到类对象而解析失败
         return new User(credentials.getName(), credentials.getPassword(), credentials.isEnabled(), true, true, true, credentials.getGrantedAuthorities());
